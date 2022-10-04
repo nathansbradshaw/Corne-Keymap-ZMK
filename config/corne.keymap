@@ -40,19 +40,19 @@
                         >;
                 };
 
-                raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB | DEL | HME | UP  | END | PGU |   |  F7 |  F8  |  F9  |  F10 |  F11 | F12 |
-// | CTRL | ESC | LFT | DWN | RGT | PGD |   |  F1 |  F2  |  F3  |  F4  |  F5  |  F6 |
-// | SHFT |prscn|     |     |     |     |   |     |      |      |      |      |  ALT   |
-//                    | GUI | MO3 | SPC | ¤ | ENT/RS |   | BKSP |
-                        bindings = <
-   &kp  TAB  &kp DEL   &kp HOME &kp UP   &kp END   &kp PG_DN &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
-   &kp LCTRL &kp ESC   &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp F1    &kp F2    &kp F3          &kp F4    &kp F5    &kp F6
-   &kp LSHFT &kp PSCRN &trans   &trans   &trans    &trans    &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp RALT
-                    	     &kp LGUI &kp   &kp SPACE   &kp RET   &kp    &kp RALT
-                        >;
-                };
+//                 raise_layer {
+// // -----------------------------------------------------------------------------------------
+// // |  TAB | DEL | HME | UP  | END | PGU |   |  F7 |  F8  |  F9  |  F10 |  F11 | F12 |
+// // | CTRL | ESC | LFT | DWN | RGT | PGD |   |  F1 |  F2  |  F3  |  F4  |  F5  |  F6 |
+// // | SHFT |prscn|     |     |     |     |   |     |      |      |      |      |  ALT   |
+// //                    | GUI | MO3 | SPC | ¤ | ENT/RS |   | BKSP |
+//                         bindings = <
+//    &kp  TAB  &kp DEL   &kp HOME &kp UP   &kp END   &kp PG_DN &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
+//    &kp LCTRL &kp ESC   &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp F1    &kp F2    &kp F3          &kp F4    &kp F5    &kp F6
+//    &kp LSHFT &kp PSCRN &trans   &trans   &trans    &trans    &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp RALT
+//                     	     &kp LGUI &kp   &kp SPACE   &kp RET   &kp    &kp RALT
+//                         >;
+//                 };
         };
 
 };
