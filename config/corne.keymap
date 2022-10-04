@@ -48,7 +48,7 @@
 //                    | GUI | MO3 | SPC | ¤ | ENT/RS |   | BKSP |
                         bindings = <
    &kp TAB  &kp DEL   &kp HOME &kp UP   &kp END   &kp PG_UP  &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
-   &kp LCTRL  &kp EXCL     &kp AT       &kp HASH    &kp DLLR     &kp PRCNT      &kp CARET   &kp AMPS   &kp ASTRK     &kp LPAR   &kp RPAR  &kp MINUS
+   &kp LCTRL &kp ESC   &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp F1    &kp F2    &kp F3          &kp F4    &kp F5    &kp F6
    &kp LSHFT  &trans       &trans       &trans       &kp EQUAL       &trans      &kp LBKT    &kp RBKT   &kp LT        &kp GT     &kp BSLH   &kp RALT
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET     &trans     &kp RALT
                         >;
