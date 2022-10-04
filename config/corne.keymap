@@ -33,7 +33,7 @@
 //                    | GUI |     | SPC | ¤ | ENT/RS |  Mo3   | BKSP |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6      &kp N7     &kp N8        &kp N9     &kp N0    &kp BSPC
-   &kp LCTRL  &kp ESCL     &kp AT          &kp HASH     &kp DLLR     &kp PRCNT      &kp CARET   &kp AMPS   &kp ASTRK     &kp LPAR   &kp RPAR  &kp MINUS
+   &kp LCTRL  &kp EXCL     &kp AT       &kp HASH    &kp DLLR     &kp PRCNT      &kp CARET   &kp AMPS   &kp ASTRK     &kp LPAR   &kp RPAR  &kp MINUS
    &kp LSHFT  &trans       &trans       &trans       &kp EQUAL       &trans      &kp LBKT    &kp RBKT   &kp LT        &kp GT     &kp BSLH   &kp RALT
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET     &trans     &kp RALT
                         >;
@@ -53,10 +53,13 @@
                         >;
                 };
         };
+
+};
+
+
 // -----------------------------------------------------------------------------------------
 // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
 //   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-};
