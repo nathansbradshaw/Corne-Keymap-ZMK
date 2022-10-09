@@ -33,12 +33,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  | ¤ |  6  |  7  |  8  |  9  |  0  | ~   |
 // | CTRL |  !  |  @  |  #  |  $  |  %  | ¤ |  ^  |  &  |  *  |  (  |  )  |  -  |
-// | SHFT | ESC  |     |     |  =  |     | ¤ |  {  |  }  |  <  |  >  |  \  |  RALT   |
+// | SHFT | ESC  |     |     |  =  |DEL  | ¤ |  {  |  }  |  <  |  >  |  \  |  RALT   |
 //                    | GUI |     | SPC | ¤ | ENT/RS |  Mo3   | BKSP |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6      &kp N7     &kp N8        &kp N9     &kp N0    &kp GRAVE
    &kp LCTRL  &kp EXCL     &kp AT       &kp HASH    &kp DLLR     &kp PRCNT      &kp CARET   &kp AMPS   &kp ASTRK     &kp LPAR   &kp RPAR  &kp MINUS
-   &kp LSHFT  &kp ESC       &trans       &trans       &kp EQUAL       &trans      &kp LBKT    &kp RBKT   &kp LT        &kp GT     &kp BSLH   &mt RSHFT ESC
+   &kp LSHFT  &kp ESC       &trans       &trans       &kp EQUAL       &kp DEL      &kp LBKT    &kp RBKT   &kp LT        &kp GT     &kp BSLH   &mt RSHFT ESC
                           	        &kp LGUI     &trans       &kp SPACE      &mt RSHFT RET     &mo 3     &kp BSPC
                         >;
                 };
